@@ -63,13 +63,16 @@
   </build>
 
   <distributionManagement>
+    <!-- Repository for release versions -->
     <repository>
       <id>nexus-releases</id>
-      <url>http://nexus.example.com/repository/maven-releases/</url>
+      <url>http://44.203.75.169:8081/repository/maven-releases/</url>
     </repository>
+
+    <!-- Repository for snapshot versions -->
     <snapshotRepository>
       <id>nexus-snapshots</id>
-      <url>http://nexus.example.com/repository/maven-snapshots/</url>
+      <url>http://44.203.75.169:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
